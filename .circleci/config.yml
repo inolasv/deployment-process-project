@@ -68,7 +68,12 @@ jobs:
 workflows:
   udagram:
     jobs:
-      - build
+      - build:
+        requires:
+          filters:
+            branches:
+              only:
+                - master
       - hold:
           filters:
             branches:

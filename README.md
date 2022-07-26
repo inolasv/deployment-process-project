@@ -6,7 +6,7 @@ This project, udagram, was created by Udacity to mimic an basic instagram like f
 
 ## Working Application:
 
-screenshots/working-app.pngß
+screenshots/working-app.png
 
 Hosted Frontend Application at: http://udagramprojectbucket138483414154.s3-website-us-east-1.amazonaws.com/
 

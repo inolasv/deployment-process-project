@@ -3,6 +3,7 @@
 # Infrastucture
 
 ### RDS - Database
+This holds the postgres SQL database in the cloud in order to store the data for the udagram application.
 - PostgresSQL
 - db instance: udagram-db
 - db name: postgres
@@ -10,11 +11,13 @@
 - port: 5432
 
 ### ElasticBeanstalk - Backend API
+This deploys the backaend api (udagram-api) as an application on the cloud so that it can be accessed from places other than local machines
 - environment: udagram-api-dev
 - application: udagram-api
 - port: 8080
 
 ### S3 - Frontend
+This stores the frontend static web page in a bucket on the cloud, allowing to also be able to be accessed from places other than local machines.
 - ACLs enabled, public s3 bucket
 - Bucket policy:
 ```
